@@ -6,12 +6,12 @@
 
 ## 디렉토리 구조
 - `data/`: 데이터셋 관리
-  - `data/raw/`: 원본 이미지와 라벨 데이터. 이미지 데이터셋 출처: [Mechanical Parts Image Classification Dataset](https://images.cv/dataset/mechanical-parts-image-classification-dataset)
+  - `data/raw/`: 원본 이미지와 라벨 데이터
   - `data/processed/`: 전처리된 이미지 데이터
   - `data/external/`: 외부에서 획득한 데이터셋
-- `models/`: 딥러닝 모델 스크립트
+- `models/`: 딥러닝 모델 관련 스크립트
 - `notebooks/`: 데이터 분석과 모델 실험용 Jupyter 노트북
-- `scripts/`: 데이터 전처리와 모델 학습 자동화 스크립트
+- `scripts/`: 데이터 전처리 스크립트
 - `utils/`: 유용한 함수와 클래스
 - `requirements.txt`: 필요한 Python 라이브러리 명시
 
